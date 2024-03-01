@@ -1,0 +1,8 @@
+#!/bin/bash (borrow from Andre.B and I modify it to fit my needs)
+tsv="run_apicomplexa_odb10/full_table.tsv"
+for taxa in Ht Pb Pc Pf Pk Pv Py; do
+
+cat ./$taxa/$tsv | grep -w "Complete" | \
+ cut -f 1 >> ./no-Tg_BUSCO-ID.txt
+
+done
