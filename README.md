@@ -598,7 +598,8 @@ cat RAxML_bestTree.*.tre > all_trees.tre
 # echo -e "all_trees.tre\nY" | consense
 echo -e "all_trees.tre\nY" | consense
 ```
-
+### Make a tree on website 
+[https://itol.embl.de/tree/1302352405120651709294479]
 <img src="outTree.png" alt="alt text" width="450"/>
 
 #### Q11. Does all protein trees reflect the “true" species tree?
